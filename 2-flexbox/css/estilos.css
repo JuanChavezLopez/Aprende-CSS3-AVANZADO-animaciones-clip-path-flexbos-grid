@@ -1,0 +1,40 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container{
+    width: 90%;
+    height: 600px;
+    margin: 20px;
+    border: 1px solid #000;
+    display: flex;
+    /* flex-flow: wrap wrap; */
+}
+
+.item{
+
+    width: 200px;
+    height: 400px;
+    text-align: center;
+    color: #fff;
+    font-size: 30px;
+
+}
+
+.item1{
+    background: steelblue;
+}
+
+.item2{
+    background: crimson;
+}
+
+.item3{
+    background: darkcyan;
+}
+
+.item4{
+    background: darkmagenta;
+}
