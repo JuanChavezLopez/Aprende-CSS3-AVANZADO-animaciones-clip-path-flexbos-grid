@@ -5,36 +5,42 @@
 }
 
 .container{
-    width: 90%;
+    width: 500;
     height: 600px;
     margin: 20px;
     border: 1px solid #000;
     display: flex;
-    /* flex-flow: wrap wrap; */
+    justify-content: space-between;
+    align-content: space-evenly;
 }
 
-.item{
-
-    width: 200px;
-    height: 400px;
+.item {
+    flex-basis: 120px;
+    width: 100px;
+    height: 100px;
     text-align: center;
     color: #fff;
     font-size: 30px;
-
+    /* sei dejamos con fle-shrink:0, se va a desbordar el contenido */
+    flex-shrink: 1;
 }
 
-.item1{
+.item1 {
     background: steelblue;
+    align-self: center;
 }
 
-.item2{
+.item2 {
     background: crimson;
+
 }
 
-.item3{
+.item3 {
     background: darkcyan;
+
 }
 
-.item4{
+.item4 {
     background: darkmagenta;
+
 }
