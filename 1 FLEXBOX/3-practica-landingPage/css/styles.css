@@ -13,11 +13,12 @@ body{
     font-family: 'Raleway', sans-serif;
 }
 
-img{
+/* img{
     width: 100%;
-}
+} */
 
 .contenedor{
+    /* background-color: rgb(134, 131, 131); */
     width: 90%;
     max-width: 1100px;
     margin: 0 auto;
@@ -29,16 +30,14 @@ img{
 
 nav {
     height: 70px;
-    background: #143d64;
+    background: #346414;
 }
-
 
 .nav-content{
     height: 100%;
     align-items: center;
     justify-content: flex-end;
 }
-
 
 .enlaces{
     text-decoration: none;
@@ -49,17 +48,17 @@ nav {
 
 /* todo:-------------main------------------ */
 .principal{
-    height: calc(100vh - 70px);
+    height: calc(100vh - 70px);/* eliminamos el scroll, xq teniamos 70px en el nav */
     align-items: center;
     justify-content: space-between;
 }
 
-.contenedor-textos{
-    flex-basis: 45%;
+.ilustracion{
+    flex-basis: 50%; /* size main axis , en este caso el eje horizontal */
 }
 
-.ilustracion{
-    flex-basis: 50%;
+.contenedor-textos{
+    flex-basis: 45%;
 }
 
 .titulo{
@@ -79,7 +78,7 @@ nav {
     background: #6c63ff;
     color: #fff;
     text-decoration: none;
-    padding: 16px 30px;
+    padding: 16px 30px;/* para que funcione se tiene que convertir a bloque */
     border-radius: 30px;
 }
 
