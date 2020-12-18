@@ -1,0 +1,59 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background: #3a1d01;
+}
+
+.caja{
+    background: coral;
+    width: 100%;
+    height: 600px;
+    position: relative;
+    /* margin: 100px;
+    position: relative;
+    bottom: 100px; */
+    /* margin-bottom: 20px; */
+}
+
+header{
+    background: coral;
+    width: 100%;
+    height: 600px;
+    position: relative;
+}
+
+.absolute{
+    position: absolute;
+    width: 100%;
+    left: 0;
+    bottom: 0;
+}
+/* .caja:nth-child(1){
+    background: black;
+    position: relative;
+}
+
+.caja:nth-child(2){
+    background: black;
+    position: absolute;
+} */
+
+.hijo1{
+    position: absolute;
+    width: 100px;
+    height: 100px;
+    background: black;
+}
+
+.hijo{
+    position: absolute;
+    background: #000;
+    width: 100px;
+    height: 600px;
+    bottom: 0;
+    right: 0;
+}
