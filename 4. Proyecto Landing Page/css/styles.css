@@ -173,6 +173,12 @@ header{
     }
 }
 
+@keyframes imagenes{
+    0%{
+        transform: scale(0);
+    }
+}
+
 .wave-bottom{
     position: absolute;
     bottom: 0;
