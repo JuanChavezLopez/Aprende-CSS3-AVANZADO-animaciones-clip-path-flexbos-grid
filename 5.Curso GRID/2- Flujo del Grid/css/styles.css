@@ -1,0 +1,42 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container{
+    height: 600px;
+    width: 800px;
+    background: #09024b;
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    grid-template-rows: 1fr 1fr 1fr;
+    grid-gap: 10px;
+    grid-auto-flow: column;
+    grid-auto-columns: 200px;
+    grid-auto-rows: 200px;
+}
+
+[class^="item"]{
+    color: #fff;
+    font-size: 30px;
+    text-align: center;
+}
+
+.item1, .item8{
+    background: #cfa107;
+
+}
+
+.item2, .item7{
+    background: #156920;
+
+}
+.item3, .item6{
+    background: #023a0a;
+
+}
+.item4, .item5{
+    background: #e21485;
+
+}
